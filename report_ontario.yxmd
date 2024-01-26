@@ -1,0 +1,224 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2023.1">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="210" y="90" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">D:\Универ\BusinessIntelligence\report_ontario.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>report_ontario.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="date" size="254" source="File: D:\Универ\BusinessIntelligence\report_ontario.csv" type="V_String" />
+            <Field name="change_cases" size="254" source="File: D:\Универ\BusinessIntelligence\report_ontario.csv" type="V_String" />
+            <Field name="change_fatalities" size="254" source="File: D:\Универ\BusinessIntelligence\report_ontario.csv" type="V_String" />
+            <Field name="change_tests" size="254" source="File: D:\Универ\BusinessIntelligence\report_ontario.csv" type="V_String" />
+            <Field name="change_hospitalizations" size="254" source="File: D:\Универ\BusinessIntelligence\report_ontario.csv" type="V_String" />
+            <Field name="change_criticals" size="254" source="File: D:\Универ\BusinessIntelligence\report_ontario.csv" type="V_String" />
+            <Field name="change_recoveries" size="254" source="File: D:\Универ\BusinessIntelligence\report_ontario.csv" type="V_String" />
+            <Field name="change_vaccinations" size="254" source="File: D:\Универ\BusinessIntelligence\report_ontario.csv" type="V_String" />
+            <Field name="change_vaccinated" size="254" source="File: D:\Универ\BusinessIntelligence\report_ontario.csv" type="V_String" />
+            <Field name="change_boosters_1" size="254" source="File: D:\Универ\BusinessIntelligence\report_ontario.csv" type="V_String" />
+            <Field name="change_boosters_2" size="254" source="File: D:\Универ\BusinessIntelligence\report_ontario.csv" type="V_String" />
+            <Field name="change_vaccines_distributed" size="254" source="File: D:\Универ\BusinessIntelligence\report_ontario.csv" type="V_String" />
+            <Field name="total_cases" size="254" source="File: D:\Универ\BusinessIntelligence\report_ontario.csv" type="V_String" />
+            <Field name="total_fatalities" size="254" source="File: D:\Универ\BusinessIntelligence\report_ontario.csv" type="V_String" />
+            <Field name="total_tests" size="254" source="File: D:\Универ\BusinessIntelligence\report_ontario.csv" type="V_String" />
+            <Field name="total_hospitalizations" size="254" source="File: D:\Универ\BusinessIntelligence\report_ontario.csv" type="V_String" />
+            <Field name="total_criticals" size="254" source="File: D:\Универ\BusinessIntelligence\report_ontario.csv" type="V_String" />
+            <Field name="total_recoveries" size="254" source="File: D:\Универ\BusinessIntelligence\report_ontario.csv" type="V_String" />
+            <Field name="total_vaccinations" size="254" source="File: D:\Универ\BusinessIntelligence\report_ontario.csv" type="V_String" />
+            <Field name="total_vaccinated" size="254" source="File: D:\Универ\BusinessIntelligence\report_ontario.csv" type="V_String" />
+            <Field name="total_boosters_1" size="254" source="File: D:\Универ\BusinessIntelligence\report_ontario.csv" type="V_String" />
+            <Field name="total_boosters_2" size="254" source="File: D:\Универ\BusinessIntelligence\report_ontario.csv" type="V_String" />
+            <Field name="total_vaccines_distributed" size="254" source="File: D:\Универ\BusinessIntelligence\report_ontario.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
+        <Position x="354" y="90" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UniqueFields>
+            <Field field="date" />
+            <Field field="change_cases" />
+            <Field field="change_fatalities" />
+            <Field field="change_tests" />
+            <Field field="change_hospitalizations" />
+            <Field field="change_criticals" />
+            <Field field="change_recoveries" />
+            <Field field="change_vaccinations" />
+            <Field field="change_vaccinated" />
+            <Field field="change_boosters_1" />
+            <Field field="change_boosters_2" />
+            <Field field="change_vaccines_distributed" />
+            <Field field="total_cases" />
+            <Field field="total_fatalities" />
+            <Field field="total_tests" />
+            <Field field="total_hospitalizations" />
+            <Field field="total_criticals" />
+            <Field field="total_recoveries" />
+            <Field field="total_vaccinations" />
+            <Field field="total_vaccinated" />
+            <Field field="total_boosters_1" />
+            <Field field="total_boosters_2" />
+            <Field field="total_vaccines_distributed" />
+          </UniqueFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="474" y="78" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="change_cases" selected="False" />
+            <SelectField field="change_fatalities" selected="False" />
+            <SelectField field="change_tests" selected="False" />
+            <SelectField field="change_hospitalizations" selected="False" />
+            <SelectField field="change_criticals" selected="False" />
+            <SelectField field="change_recoveries" selected="False" />
+            <SelectField field="change_vaccinations" selected="False" />
+            <SelectField field="change_vaccinated" selected="False" />
+            <SelectField field="change_boosters_1" selected="False" />
+            <SelectField field="change_boosters_2" selected="False" />
+            <SelectField field="change_vaccines_distributed" selected="False" />
+            <SelectField field="total_hospitalizations" selected="False" />
+            <SelectField field="total_boosters_1" selected="False" />
+            <SelectField field="total_boosters_2" selected="False" />
+            <SelectField field="total_vaccines_distributed" selected="False" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="606" y="78" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File FileFormat="42" MaxRecords="">D:\Универ\BusinessIntelligence\project\ontario_total_report.tde</File>
+          <Passwords />
+          <Disable>False</Disable>
+          <FormatSpecificOptions>
+            <OutputOption>Create</OutputOption>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>ontario_total_report.tde</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Unique" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>report_ontario</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="9e11313f-953e-49f6-bbae-200955893c8e" />
+      <Telemetry>
+        <PreviousWorkflowId value="17347639-7a15-434c-8211-f450c63bf0fc" />
+        <OriginWorkflowId value="17347639-7a15-434c-8211-f450c63bf0fc" />
+      </Telemetry>
+      <PlatformWorkflowId value="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

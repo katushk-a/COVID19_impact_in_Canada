@@ -1,0 +1,435 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2023.1">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="78" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">D:\Универ\BusinessIntelligence\summary.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>summary.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="province" size="254" source="File: D:\Универ\BusinessIntelligence\summary.csv" type="V_String" />
+            <Field name="date" size="254" source="File: D:\Универ\BusinessIntelligence\summary.csv" type="V_String" />
+            <Field name="change_cases" size="254" source="File: D:\Универ\BusinessIntelligence\summary.csv" type="V_String" />
+            <Field name="change_fatalities" size="254" source="File: D:\Универ\BusinessIntelligence\summary.csv" type="V_String" />
+            <Field name="change_tests" size="254" source="File: D:\Универ\BusinessIntelligence\summary.csv" type="V_String" />
+            <Field name="change_hospitalizations" size="254" source="File: D:\Универ\BusinessIntelligence\summary.csv" type="V_String" />
+            <Field name="change_criticals" size="254" source="File: D:\Универ\BusinessIntelligence\summary.csv" type="V_String" />
+            <Field name="change_recoveries" size="254" source="File: D:\Универ\BusinessIntelligence\summary.csv" type="V_String" />
+            <Field name="change_vaccinations" size="254" source="File: D:\Универ\BusinessIntelligence\summary.csv" type="V_String" />
+            <Field name="change_vaccinated" size="254" source="File: D:\Универ\BusinessIntelligence\summary.csv" type="V_String" />
+            <Field name="change_boosters_1" size="254" source="File: D:\Универ\BusinessIntelligence\summary.csv" type="V_String" />
+            <Field name="change_boosters_2" size="254" source="File: D:\Универ\BusinessIntelligence\summary.csv" type="V_String" />
+            <Field name="change_vaccines_distributed" size="254" source="File: D:\Универ\BusinessIntelligence\summary.csv" type="V_String" />
+            <Field name="total_cases" size="254" source="File: D:\Универ\BusinessIntelligence\summary.csv" type="V_String" />
+            <Field name="total_fatalities" size="254" source="File: D:\Универ\BusinessIntelligence\summary.csv" type="V_String" />
+            <Field name="total_tests" size="254" source="File: D:\Универ\BusinessIntelligence\summary.csv" type="V_String" />
+            <Field name="total_hospitalizations" size="254" source="File: D:\Универ\BusinessIntelligence\summary.csv" type="V_String" />
+            <Field name="total_criticals" size="254" source="File: D:\Универ\BusinessIntelligence\summary.csv" type="V_String" />
+            <Field name="total_recoveries" size="254" source="File: D:\Универ\BusinessIntelligence\summary.csv" type="V_String" />
+            <Field name="total_vaccinations" size="254" source="File: D:\Универ\BusinessIntelligence\summary.csv" type="V_String" />
+            <Field name="total_vaccinated" size="254" source="File: D:\Универ\BusinessIntelligence\summary.csv" type="V_String" />
+            <Field name="total_boosters_1" size="254" source="File: D:\Универ\BusinessIntelligence\summary.csv" type="V_String" />
+            <Field name="total_boosters_2" size="254" source="File: D:\Универ\BusinessIntelligence\summary.csv" type="V_String" />
+            <Field name="total_vaccines_distributed" size="254" source="File: D:\Универ\BusinessIntelligence\summary.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">D:\Универ\BusinessIntelligence\provinces.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>provinces.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="id" size="254" source="File: D:\Универ\BusinessIntelligence\provinces.csv" type="V_String" />
+            <Field name="code" size="254" source="File: D:\Универ\BusinessIntelligence\provinces.csv" type="V_String" />
+            <Field name="name" size="254" source="File: D:\Универ\BusinessIntelligence\provinces.csv" type="V_String" />
+            <Field name="data_source" size="254" source="File: D:\Универ\BusinessIntelligence\provinces.csv" type="V_String" />
+            <Field name="population" size="254" source="File: D:\Универ\BusinessIntelligence\provinces.csv" type="V_String" />
+            <Field name="area" size="254" source="File: D:\Универ\BusinessIntelligence\provinces.csv" type="V_String" />
+            <Field name="gdp" size="254" source="File: D:\Универ\BusinessIntelligence\provinces.csv" type="V_String" />
+            <Field name="geographic" size="254" source="File: D:\Универ\BusinessIntelligence\provinces.csv" type="V_String" />
+            <Field name="data_status" size="254" source="File: D:\Универ\BusinessIntelligence\provinces.csv" type="V_String" />
+            <Field name="created_at" size="254" source="File: D:\Универ\BusinessIntelligence\provinces.csv" type="V_String" />
+            <Field name="updated_at" size="254" source="File: D:\Универ\BusinessIntelligence\provinces.csv" type="V_String" />
+            <Field name="density" size="254" source="File: D:\Универ\BusinessIntelligence\provinces.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="210" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="province" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="code" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Right_code" selected="False" input="Right_" />
+                <SelectField field="Right_data_source" selected="False" input="Right_" />
+                <SelectField field="Right_created_at" selected="False" input="Right_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
+        <Position x="318" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UniqueFields>
+            <Field field="province" />
+            <Field field="date" />
+            <Field field="change_cases" />
+            <Field field="change_fatalities" />
+            <Field field="change_tests" />
+            <Field field="change_hospitalizations" />
+            <Field field="change_criticals" />
+            <Field field="change_recoveries" />
+            <Field field="change_vaccinations" />
+            <Field field="change_vaccinated" />
+            <Field field="change_boosters_1" />
+            <Field field="change_boosters_2" />
+            <Field field="change_vaccines_distributed" />
+            <Field field="total_cases" />
+            <Field field="total_fatalities" />
+            <Field field="total_tests" />
+            <Field field="total_hospitalizations" />
+            <Field field="total_criticals" />
+            <Field field="total_recoveries" />
+            <Field field="total_vaccinations" />
+            <Field field="total_vaccinated" />
+            <Field field="total_boosters_1" />
+            <Field field="total_boosters_2" />
+            <Field field="total_vaccines_distributed" />
+            <Field field="id" />
+            <Field field="name" />
+            <Field field="population" />
+            <Field field="area" />
+            <Field field="gdp" />
+            <Field field="geographic" />
+            <Field field="data_status" />
+            <Field field="updated_at" />
+            <Field field="density" />
+          </UniqueFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="450" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="True" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="province" selected="True" />
+            <SelectField field="id" selected="True" />
+            <SelectField field="name" selected="True" />
+            <SelectField field="population" selected="True" />
+            <SelectField field="area" selected="True" />
+            <SelectField field="gdp" selected="True" />
+            <SelectField field="geographic" selected="True" />
+            <SelectField field="data_status" selected="True" />
+            <SelectField field="updated_at" selected="True" />
+            <SelectField field="density" selected="True" />
+            <SelectField field="date" selected="True" />
+            <SelectField field="change_cases" selected="True" />
+            <SelectField field="change_fatalities" selected="True" />
+            <SelectField field="change_tests" selected="True" />
+            <SelectField field="change_hospitalizations" selected="False" />
+            <SelectField field="change_criticals" selected="True" />
+            <SelectField field="change_recoveries" selected="True" />
+            <SelectField field="change_vaccinations" selected="True" />
+            <SelectField field="change_vaccinated" selected="False" />
+            <SelectField field="change_boosters_1" selected="False" />
+            <SelectField field="change_boosters_2" selected="False" />
+            <SelectField field="change_vaccines_distributed" selected="False" />
+            <SelectField field="total_cases" selected="True" />
+            <SelectField field="total_fatalities" selected="True" />
+            <SelectField field="total_tests" selected="True" />
+            <SelectField field="total_hospitalizations" selected="False" />
+            <SelectField field="total_criticals" selected="True" />
+            <SelectField field="total_recoveries" selected="True" />
+            <SelectField field="total_vaccinations" selected="True" />
+            <SelectField field="total_vaccinated" selected="False" />
+            <SelectField field="total_boosters_1" selected="False" />
+            <SelectField field="total_boosters_2" selected="True" />
+            <SelectField field="total_vaccines_distributed" selected="False" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="558" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="if [data_status] = &quot;Reported&quot; &#xA;then 1&#xA;else 0&#xA;endif" field="IsReported" size="1073741823" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[IsReported = if [data_status] = "Reported" 
+then 1
+else 0
+endif
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="642" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="True" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="province" selected="True" />
+            <SelectField field="id" selected="False" />
+            <SelectField field="name" selected="True" />
+            <SelectField field="population" selected="True" type="Int32" size="4" />
+            <SelectField field="area" selected="True" type="Float" size="4" />
+            <SelectField field="gdp" selected="False" type="Float" size="4" />
+            <SelectField field="geographic" selected="False" />
+            <SelectField field="IsReported" selected="False" type="Int32" size="4" />
+            <SelectField field="data_status" selected="False" />
+            <SelectField field="updated_at" selected="False" type="DateTime" size="19" />
+            <SelectField field="density" selected="True" type="Double" size="8" />
+            <SelectField field="date" selected="False" type="Date" size="10" />
+            <SelectField field="change_cases" selected="False" type="Int32" size="4" />
+            <SelectField field="change_fatalities" selected="False" type="Int32" size="4" />
+            <SelectField field="change_tests" selected="False" type="Int32" size="4" />
+            <SelectField field="change_criticals" selected="False" type="Int32" size="4" />
+            <SelectField field="change_recoveries" selected="False" type="Int32" size="4" />
+            <SelectField field="change_vaccinations" selected="False" type="Int32" size="4" />
+            <SelectField field="total_cases" selected="True" type="Int32" size="4" />
+            <SelectField field="total_fatalities" selected="True" type="Int32" size="4" />
+            <SelectField field="total_tests" selected="True" type="Int32" size="4" />
+            <SelectField field="total_criticals" selected="True" type="Int32" size="4" />
+            <SelectField field="total_recoveries" selected="True" type="Int32" size="4" />
+            <SelectField field="total_vaccinations" selected="True" type="Int32" size="4" />
+            <SelectField field="total_boosters_2" selected="False" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="882" y="162" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="0">D:\Универ\BusinessIntelligence\project\summary_regions.csv</File>
+          <Passwords />
+          <Disable>False</Disable>
+          <FormatSpecificOptions>
+            <LineEndStyle>CRLF</LineEndStyle>
+            <Delimeter>,</Delimeter>
+            <ForceQuotes>False</ForceQuotes>
+            <HeaderRow>True</HeaderRow>
+            <CodePage>28591</CodePage>
+            <WriteBOM>True</WriteBOM>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>summary_regions.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="750" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File FileFormat="42" MaxRecords="">D:\Универ\BusinessIntelligence\project\summary_regions.tde</File>
+          <Passwords />
+          <Disable>False</Disable>
+          <FormatSpecificOptions>
+            <OutputOption>Create</OutputOption>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>summary_regions.tde</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="3" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="3" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Join" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Unique" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>provinces_summary_workflow</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="f370b485-479d-410f-b73f-b9846b7007b2" />
+      <Telemetry>
+        <PreviousWorkflowId value="5aa4c3f7-fef8-4d3f-8ef9-945d317aa107" />
+        <OriginWorkflowId value="5aa4c3f7-fef8-4d3f-8ef9-945d317aa107" />
+      </Telemetry>
+      <PlatformWorkflowId value="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
